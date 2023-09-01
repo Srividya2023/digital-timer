@@ -1,0 +1,134 @@
+/* Write your CSS here */
+
+.bg-container{
+    background-image: linear-gradient(to right,  #ffffff, #cffcf1);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Roboto;
+}
+.pause-play-btn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.reset-btn{
+    background-color: transparent;
+    border: none;
+    margin-left:10px;
+}
+.pause-play-img{
+    height:30px;
+    width:30px;
+}
+.reset-img{
+    height:30px;
+    width:30px;
+}
+
+.inner-hrs-container{
+    padding: 10px 20px 20px 20px;
+    background-color: #ffffff;
+    border-radius: 60%;
+    box-shadow: 0px 4px 16px 0px;
+}
+
+.btns-flex-props{
+    display: flex;
+    
+}
+.hrs-props{
+    color:#00d9f5;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom:0px;
+}
+.pause-run-props{
+    margin-top:0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight:700;
+}
+.increment-decrement-props{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.bg-incre-decre{
+    background-image:linear-gradient(to right,  #58c24f, #00d9f5);
+    padding:10px 25px 10px 25px;
+    border-radius: 7px;
+    margin:10px;
+}
+.margin-right-props{
+    margin-right: 10px;
+    font-size:20px;
+    font-weight: 700;
+}
+.reset-props{
+    font-size:20px;
+    font-weight: 700;
+}
+.timer-limit{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+}
+.plus-minus-btn{
+    background-color: transparent;
+    border: none;
+    font-size:20px;
+    font-weight: 700;
+}
+
+
+@media (max-width:768px){
+    
+.large-props{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hrs-container {
+    
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover; /* or "contain" depending on your preference */
+    background-position:  center; /* You can adjust this based on your design */
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+
+@media (min-width:768px){
+
+.hrs-container {
+    
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover; /* or "contain" depending on your preference */
+    background-position:  center; /* You can adjust this based on your design */
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-props{
+    display: flex;
+    
+    align-items: center;
+}
+
+}
